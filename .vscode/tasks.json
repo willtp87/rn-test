@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "rn-test",
+			"problemMatcher": [],
+			"label": "npm: start - rn-test",
+			"detail": "expo start",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

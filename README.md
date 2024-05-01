@@ -5,8 +5,11 @@ React Native Test is a template repo for testing out React Native development.
 * [William Panting](https://github.com/willtp87)
 
 ## Development
-
 If you would like to contribute to this repo create an issue or pull request.
+
+### Running & Debuging
+#### VS Code
+A task for building and running on IOS is provided with a launch file to attach the debugger.
 
 ## License
 
