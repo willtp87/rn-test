@@ -4,7 +4,6 @@
 		{
 			"type": "npm",
 			"script": "start",
-			"path": "rn-test",
 			"problemMatcher": [],
 			"label": "npm: start - rn-test",
 			"detail": "expo start",

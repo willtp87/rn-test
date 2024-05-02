@@ -8,7 +8,7 @@
             "type": "expo",
             "request": "attach",
             "name": "Debug Expo app",
-            "projectRoot": "${workspaceFolder}/rn-test",
+            "projectRoot": "${workspaceFolder}",
             "bundlerPort": "8081",
             "bundlerHost": "127.0.0.1"
         }
