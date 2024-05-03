@@ -1,12 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { ThemeProvider, Text, createTheme } from '@rneui/themed';
+
+const theme = createTheme({
+});
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Panting template repo!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider theme={theme}>
+      <View style={styles.container}>
+        <Text>Panting template repo!</Text>
+        <StatusBar style="auto" />
+      </View>
+    </ThemeProvider>
   );
 }
 
