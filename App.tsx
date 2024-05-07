@@ -1,5 +1,6 @@
 import { ThemeProvider, Text, createTheme } from "@rneui/themed";
 import { StatusBar } from "expo-status-bar";
+import React from "react";
 import { StyleSheet, View } from "react-native";
 
 const theme = createTheme({});

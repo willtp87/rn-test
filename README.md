@@ -13,7 +13,13 @@ If you would like to contribute to this repo create an issue or pull request.
 
 ### Running & Debuging
 #### VS Code
-A task for building and running on IOS is provided with a launch file to attach the debugger.
+A task for building and running on IOS is provided along with a launch file to attach the debugger.
+
+### Static Analysis
+This project uses typescript and eslint it has associated scripts in the package.json.
+
+### Testing
+This project uses Jest and has a script in the package.json.
 
 ## License
 
