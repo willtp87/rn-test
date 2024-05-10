@@ -11,15 +11,24 @@ If you would like to contribute to this repo create an issue or pull request.
 * [Expo](https://expo.dev/)
 * [React Native Elements](https://reactnativeelements.com/docs)
 
-### Running & Debuging
-#### VS Code
-A task for building and running on IOS is provided along with a launch file to attach the debugger.
+### Building
+A script to build for IOS on macos is provide in the package.json.
+package.json scripts and vscode tasks for starting the Metro Bundler for use with Expo Go are provided.
+
+### Debugging
+A vscode launch file to attach the debugger to Expo Go is provided.
 
 ### Static Analysis
-This project uses typescript and eslint it has associated scripts in the package.json.
+This project uses typescript and eslint it has associated scripts
+* package.json
+* github workflows
+* vscode tasks
 
 ### Testing
-This project uses Jest and has a script in the package.json.
+This project uses Jest and has associated scripts
+* package.json
+* github workflows
+* vscode tasks
 
 ## License
 
