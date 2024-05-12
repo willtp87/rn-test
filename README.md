@@ -1,5 +1,5 @@
-# rn-test
-React Native Test is a template repo for testing out React Native development.
+# Panting React Native Template
+This a template repo for testing out React Native development.
 
 ## Maintainers
 * [William Panting](https://github.com/willtp87)
