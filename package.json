@@ -16,7 +16,7 @@
     "@rneui/themed": "4.0.0-rc.8",
     "expo": "~51",
     "expo-localization": "^15.0.3",
-    "expo-status-bar": "~1.11.1",
+    "expo-status-bar": "~1.12.1",
     "i18next": "^23.11.4",
     "intl-pluralrules": "^2.0.1",
     "react": "18.2.0",
