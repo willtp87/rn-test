@@ -1,11 +1,11 @@
+import { render } from "@testing-library/react-native";
 import React from "react";
-import renderer from "react-test-renderer";
 
 import App from "./App";
 
 describe("<App />", () => {
-  it("has 1 child", () => {
-    const tree: any = renderer.create(<App />).toJSON();
-    expect(tree.children.length).toBe(1);
+  it("Has expected number of children.", () => {
+    const tree: any = render(<App />).toJSON();
+    expect(tree.children.length).toBe(2);
   });
 });

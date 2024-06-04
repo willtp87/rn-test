@@ -5,18 +5,25 @@ import "intl-pluralrules";
 import "./i18n/i18n";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, View } from "react-native";
+import { Provider } from "react-redux";
+
+import TimeInApp from "./components/TimeInApp";
+import { store } from "./store";
 
 const theme = createTheme({});
 
 export default function App() {
   const { t } = useTranslation();
   return (
-    <ThemeProvider theme={theme}>
-      <View style={styles.container}>
-        <Text>{t("helloWorld")}</Text>
-        <StatusBar style="auto" />
-      </View>
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <View style={styles.container}>
+          <Text>{t("helloWorld")}</Text>
+          <StatusBar style="auto" />
+          <TimeInApp />
+        </View>
+      </ThemeProvider>
+    </Provider>
   );
 }
 
