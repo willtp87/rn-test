@@ -2,13 +2,13 @@ import { ThemeProvider, Text, createTheme } from "@rneui/themed";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import "intl-pluralrules";
-import "./i18n/i18n";
+import "../i18n/i18n";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, View } from "react-native";
 import { Provider } from "react-redux";
 
-import TimeInApp from "./components/TimeInApp";
-import { store } from "./store";
+import TimeInApp from "../components/TimeInApp";
+import { store } from "../store";
 
 const theme = createTheme({});
 

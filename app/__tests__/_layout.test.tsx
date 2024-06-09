@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react-native";
 import React from "react";
 
-import App from "./App";
+import App from "../_layout";
 
 describe("<App />", () => {
   it("Has expected number of children.", () => {

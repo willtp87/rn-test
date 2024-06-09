@@ -13,6 +13,7 @@ If you would like to contribute to this repo create an issue or pull request.
 ### Frameworks and Libraries
 
 * [Expo](https://expo.dev/)
+* [Expo Router](https://docs.expo.dev/router/introduction/)
 * [React Native Elements](https://reactnativeelements.com/docs)
 * [i18next](https://www.i18next.com/)
 * [Redux Toolkit](https://redux-toolkit.js.org/)
