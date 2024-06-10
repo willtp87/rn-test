@@ -4878,10 +4878,17 @@ expo-modules-autolinking@1.11.1:
     find-up "^5.0.0"
     fs-extra "^9.1.0"
 
-expo-modules-core@1.12.13, expo-modules-core@^1.12.9:
+expo-modules-core@1.12.13:
   version "1.12.13"
   resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-1.12.13.tgz#83d19a85ece53e88d1afa2fcfeee43c8e1119d1b"
   integrity sha512-CpCe6HatZpFa3KwQ04t1FxZWGl96KpV/RH55PGSXLhGhNMQ2MXxK7g9xKuXUDM45hgeNlO3P7BhJJkyFfhe3TQ==
+  dependencies:
+    invariant "^2.2.4"
+
+expo-modules-core@^1.12.14:
+  version "1.12.14"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-1.12.14.tgz#605b8e8a50c5ca4bc8f2f948a16eb1b417cbb67a"
+  integrity sha512-LCaq/t+FL0QRlIfcFHzhb+e9H6A+VIL3elgI6lKfiQBkLbDHbc9kzvV91k0yQbQASMJKpskSVjFakcDEMPEI8A==
   dependencies:
     invariant "^2.2.4"
 
