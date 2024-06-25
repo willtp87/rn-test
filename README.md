@@ -1,6 +1,7 @@
 # Panting React Native Template
 
 This a template repo for testing out React Native development for IOS.
+[Documentation](https://willtp87.github.io/panting-react-native-template/)
 
 ## Maintainers
 
