@@ -20,3 +20,10 @@ jest.mock("expo-localization", () => ({
     return [{ languageCode: "en" }];
   }),
 }));
+
+// Mock useNavigation hook. So that we can test components that use it.
+jest.mock("expo-router", () => ({
+  useNavigation: jest.fn(() => {
+    return { setOptions: jest.fn() };
+  }),
+}));
