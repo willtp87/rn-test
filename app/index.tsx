@@ -10,7 +10,7 @@ import { Provider } from "react-redux";
 import TimeInApp from "../components/TimeInApp";
 import { store } from "../store";
 
-const theme = createTheme({});
+const theme = createTheme({ mode: "dark" });
 
 export default function Index() {
   const { t } = useTranslation();
@@ -36,7 +36,6 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#D3D3D3",
     alignItems: "center",
     justifyContent: "center",
   },
