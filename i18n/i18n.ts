@@ -1,6 +1,7 @@
 import { getLocales } from "expo-localization";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import "intl-pluralrules";
 
 import englishTranslation from "./locales/english.json";
 import frenchTranslation from "./locales/french.json";

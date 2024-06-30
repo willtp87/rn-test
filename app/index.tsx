@@ -2,7 +2,6 @@ import { ThemeProvider, Text, createTheme } from "@rneui/themed";
 import { useNavigation } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect } from "react";
-import "intl-pluralrules";
 import "../i18n/i18n";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, View } from "react-native";
