@@ -1,4 +1,5 @@
 {
     "helloWorld": "Panting template repo!",
+    "timeInApp": "Time in app: {{timeInApp}}",
     "mainTitle": "Main"
 }
